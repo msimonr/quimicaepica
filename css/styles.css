@@ -14,6 +14,7 @@ body {
     background-color: var(--background);
     font-family: "Montserrat", sans-serif;
     color: var(--font-color);
+    font-size: 1em;
 }
 
 .nombre {
@@ -71,6 +72,9 @@ a:active {
 .navbar-light .navbar-nav .nav-link.active,
 .navbar-light .navbar-nav .show>.nav-link {
     color: var(--detalle2);
+    background-color: var(--background2);
+    border-radius: 1em;
+    padding: 0.5em;
 }
 
 .navbar-light .navbar-nav .nav-link:focus,
@@ -80,4 +84,26 @@ a:active {
 
 .rowPar {
     background-color: var(--background2);
+    border-radius: 1em;
+    padding: 1em;
+}
+
+.imgBox {
+    /* max-width: 90%; */
+    max-width: 9em;
+}
+
+.lista>li {
+    margin: 0em;
+    padding: 0;
+    font-size: 1.1em;
+}
+
+.lista {
+    margin: 0em;
+    border-radius: 1em;
+}
+
+p {
+    font-size: 1.2em;
 }
