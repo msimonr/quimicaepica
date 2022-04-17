@@ -21,6 +21,9 @@ body {
     text-transform: uppercase;
     letter-spacing: 0.04em;
     font-weight: bold;
+    font-size: 5em;
+    color: var(--background);
+    margin-bottom: 0;
 }
 
 .detalle {
@@ -33,6 +36,8 @@ body {
 
 .tagline {
     font-size: 1.5em;
+    margin-top: -0.8em;
+    color: var(--background);
 }
 
 .divisor {
@@ -106,4 +111,8 @@ a:active {
 
 p {
     font-size: 1.2em;
+}
+
+.marca {
+    background-image: url(../img/istockphoto-162264253-1024x1024.jpg);
 }
