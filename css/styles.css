@@ -144,11 +144,27 @@ a:active {
     padding: 0.2em;
     border-radius: 0.5em;
     color: var(--background);
-    max-width: 15em;
+    /* max-width: 15em; */
     font-weight: 600;
 }
 
-.listaP,
+
+/* .listaP>li {
+    list-style: none;
+    /* display: inline-block; */
+
+background-color: var(--detalle2);
+margin: 0.1em 0.2em;
+padding: 0.2em;
+border-radius: 0.5em;
+color: var(--background);
+
+/* max-width: 15em; */
+
+font-weight: 600;
+
+}
+*/ .listaP,
 .lista {
     padding: 0;
 }
